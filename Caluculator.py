@@ -8,19 +8,19 @@ print('5.%')
 print('6.**')
 print('7.//')
 c=input('select your option')
-if c=='+':
+if c=='1':
 	print(a+b)
-elif c=='-':
+elif c=='2':
 	print(a-b)
-elif c=='*':
+elif c=='3':
 	print(a*b)
-elif c=='/':
+elif c=='4':
 	print(a/b)
-elif c=='%':
+elif c=='5':
 	print(a%b)
-elif c=='**':
+elif c=='6':
 	print(a**b)
-elif c=='//':
+elif c=='7':
 	print(a//b)
 else :
 	print('Wrong option')
